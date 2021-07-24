@@ -1,0 +1,16 @@
+.active{
+    color: #c50000;
+    position: relative;
+}
+.active::after{
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 4px;
+    bottom: -21px;
+    background-color: #c50000;
+    left: 0;
+}
+.nav-up-2{
+    color: #fff;
+}

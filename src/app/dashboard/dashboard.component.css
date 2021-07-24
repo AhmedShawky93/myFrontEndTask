@@ -1,0 +1,124 @@
+.main-dash{
+    display: flex;
+}
+.ul-left{
+    width: 20%;
+    box-sizing: border-box;
+    border-left:1px solid #E3E3E3 ;
+    border-right:1px solid #E3E3E3 ;
+}
+.ul-left li{
+    padding: 15px;
+    border-bottom: 1px solid #E3E3E3;
+    color: #c50000;
+    font-size: .8rem;
+    cursor: pointer;
+    transition: all .3s ease-in;
+    font-weight: 100;
+}
+.ul-left li:first-of-type{
+    background-color: #c50000;
+    color: #fff;
+}
+.ul-left li:hover{
+    background-color: #c50000;
+    color: #fff;
+}
+/* contant */
+.contant{
+    padding: 15px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.contant h3{
+    margin-bottom: 15px;
+    font-weight: 400;
+}
+.first-div{
+    display: flex;
+    width: 100%;
+    border: 2px solid #c50000;
+    padding: 8px;
+    margin: 15px;
+}
+.first-div img{
+    width: 150px;
+    object-fit: cover;
+    border-right: 2px solid #707070;
+}
+.first-div .first-div-des h3{
+    color: #c50000;
+    margin-bottom: 15px;
+}
+.first-div-des{
+    margin-left: 15px;
+}
+.first-div-des ul li{
+    font-weight: 400;
+    font-size: .8rem;
+}
+/* second-div */
+.second-div{
+    display: flex;
+    border: 2px solid #c50000;
+    flex-direction: column;
+    position: relative;
+    padding: 10px;
+    margin: 15px;
+}
+.second-div img{
+    margin-top: 20px;
+}
+.second-div p{
+    background-color: #c50000;
+    padding: 3px;
+    color: #fff;
+    position: absolute;
+    width: 100%;
+    top: 0;
+    left: 0;
+}
+.second-div-risk{
+    padding: 3px;
+    background-color: #c50000;
+    align-items: center;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+}
+.second-div-risk h3{
+    margin-bottom: 0;
+    padding-left: 10px;
+    font-size: 1.8rem;
+    font-weight: 300;
+}
+.second-div-risk button{
+    padding: 10px 20px;
+    background-color: #fff;
+    color: #000;
+    cursor: pointer;
+    border: none;
+}
+/* thrd-div */
+.thrd-div{
+    display: flex;
+    border: 2px solid #c50000;
+    flex-direction: column;
+    margin: 15px;
+}
+.thrd-div p{
+    background-color: #c50000;
+    padding: 3px;
+    color: #fff;
+}
+.thrd-div ul{
+    padding: 10px;
+    width: 200px;
+}
+.thrd-div ul li{
+    display: flex;
+    justify-content: space-between;
+}
+.thrd-div ul li span:first-of-type{
+    color: #c50000;
+}

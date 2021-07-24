@@ -1,0 +1,83 @@
+.main {
+  background-image: url(../../assets/imgs/hero-image.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  z-index: -1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.hero {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-around;
+  backdrop-filter: blur(15px);
+  margin-top: 70px;
+  padding: 30px;
+  box-shadow: 0 10px 42px -27px #b14a3b;
+}
+
+.hero .hero-content-left {
+  width: 440px;
+  color: #fff;
+}
+.hero .hero-content-left p {
+  margin-bottom: 10px;
+}
+.hero .hero-content-left p:last-of-type {
+  margin-bottom: 30px;
+}
+.hero .hero-content-left h1 {
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+.hero .hero-content-left button {
+  padding: 10px 20px;
+  margin-right: 15px;
+  width: 185px;
+  background: transparent;
+  border: 1px solid #fff;
+  color: #fff;
+  cursor: pointer;
+  margin-bottom: 30px;
+  transition: all 0.3s ease-in;
+}
+.hero .hero-content-left button:hover {
+  background-color: #c50000;
+  border: 1px solid #c50000;
+}
+.hero .hero-content-left button:last-of-type {
+  margin-right: 0;
+}
+.hero .hero-content-right {
+  width: 500px;
+}
+.hero .hero-content-right img {
+  width: 100%;
+}
+.icons i {
+  background-color: #c50000;
+  color: #fff;
+  padding: 5px;
+  margin-right: 5px;
+  cursor: pointer;
+}
+.social {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 35px;
+}
+.social i {
+  display: block;
+  padding: 5px;
+  font-size: 1.3rem;
+  color: #fff;
+}
